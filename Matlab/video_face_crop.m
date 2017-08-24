@@ -4,9 +4,9 @@ clear all;
 % Read Video using VideoReader
 
 videoframe = VideoReader('file_name.mp4');
+FD = 1;
 
-
-for idx = 1:videoframe.numberofframes
+for idx = 1:FD:videoframe.numberofframes
     
     curframe = read(videoframe,idx);
     savedframe = curframe;

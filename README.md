@@ -6,3 +6,4 @@ Reads a video file, detects faces from each frame, saves the frames in some* fol
       * Modify line 27 (for frames)
       * Modify line 39 (for cropped faces)
 3. Line number 13, 20, 36 (Uncomment these lines to realize the faces get detected frame by frame, will slow down the saving process)
+4. Increase FD to reduce the number of similar frames in the dataset.
