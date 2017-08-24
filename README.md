@@ -5,4 +5,4 @@ Reads a video file, detects faces from each frame, saves the frames in some* fol
 2. To change path, name format
       * Modify line 27 (for frames)
       * Modify line 39 (for cropped faces)
-3. Line number 13, 20, 36 (Uncomment these lines to realize the faces get detected frame by frame)
+3. Line number 13, 20, 36 (Uncomment these lines to realize the faces get detected frame by frame, will slow down the saving process)
